@@ -396,7 +396,7 @@ class ItemModalTests(StaticLiveServerTestCase):
         
         #ensure we are redirected to the inventory page
         WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located((By.ID, "feedback-button"))
+            EC.presence_of_element_located((By.ID, "inventory-container"))
         )
         
         #get current url
@@ -496,7 +496,7 @@ class ItemModalEditTests(StaticLiveServerTestCase):
         
         #ensure we are redirected to the inventory page
         WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located((By.ID, "feedback-button"))
+            EC.presence_of_element_located((By.ID, "inventory-container"))
         )
         
         #get current url
