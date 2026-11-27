@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bdh-app-inventory"
-version = "1.2.0"
+version = "1.2.1b1"
 description = "Black Diamond Hub app: Black Diamond Hub app: kitchen inventory with QR codes"
 readme = "README.md"
 license = { text = "MIT" }

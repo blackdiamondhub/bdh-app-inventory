@@ -575,7 +575,7 @@
                     }
 
                 } else {
-                    alert('Error saving changes: ' + data.error);
+                    (window.bdh && bdh.alert ? bdh.alert : window.alert)('Error saving changes: ' + data.error);
                 }
             }).catch(error => console.error('Error:', error));
         }
